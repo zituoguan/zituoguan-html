@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /_static/
+Disallow: /_sphinx_design_static/
+
+Sitemap: https://zituoguan.com/sitemap.xml

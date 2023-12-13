@@ -1,0 +1,10 @@
+# 将复合 _static 路径重定向到正确位置，防止 AI 爬虫 URL 堆叠
+/*/_static/* /_static/:splat 301
+/*/*/_static/* /_static/:splat 301
+/*/*/*/_static/* /_static/:splat 301
+
+# 首页 canonical 修正
+/index / 301
+
+# catch-all：所有未匹配到真实页面的路径（错误后缀、嵌套软 404、伪造路径）返回 404，阻止 AI 爬虫 URL 堆叠
+/* /404.html 404
