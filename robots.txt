@@ -1,0 +1,1 @@
+# 请不要过于频繁地爬取此站点。源代码可在 https://github.com/zituoguan/zituoguan-html 获取。原始数据可在 https://github.com/zituoguan/zituoguan-data 获取
