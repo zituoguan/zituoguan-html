@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>自托管精选</ShortName>
+  <Description>搜索 自托管精选</Description>
+  <InputEncoding>utf-8</InputEncoding>
+  <Url type="text/html" method="get"
+       template="https://zituoguan.com//search.html?q={searchTerms}"/>
+  <LongName>自托管精选</LongName>
+  <Image height="16" width="16" type="image/x-icon">https://zituoguan.com//_static/favicon.ico</Image>
+  
+</OpenSearchDescription>
